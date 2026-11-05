@@ -3,7 +3,7 @@ from tkinter import *
 class Application:
     def __init__(self, master=None):
         self.fontePadrao = ("Arial", 10)
-        self.primeiroContainer = Frame(master)
+        self.primeiroContainer = Frame(master) # type: ignore
         self.primeiroContainer["pady"] = 10
         self.primeiroContainer.pack()
 
